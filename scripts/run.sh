@@ -29,5 +29,8 @@ rosa create cluster --cluster-name ${cluster_id}-${RAND} --region us-east-2 --ve
 # output logs
 rosa logs install -c ${cluster_id}-${RAND} --watch
 
-# request idp "wiring"
-# output the console login
+# create output logs
+rosa create idp --cluster=${cluster_id}-${RAND} --type openid --client-id $6 --client-secret $7 --name IBMid --username-claims username --name-claims name --email-claims email --issuer-url $8
+
+
+

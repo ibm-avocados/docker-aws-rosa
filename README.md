@@ -6,7 +6,7 @@ A simple docker container that has everything required to request a ROSA instanc
 
 **EXAMPLE**:
 ```bash
-docker run quay.io/ibm-avocados/docker-aws-rosa:latest "AWS_CLIENT_KEY" "AWS_SECRET_KEY" "CLUSTER_NAME" "COMPUTE_NODES" "ROSA_TOKEN"
+docker run quay.io/ibm-avocados/docker-aws-rosa:latest "AWS_CLIENT_KEY" "AWS_SECRET_KEY" "CLUSTER_NAME" "COMPUTE_NODES" "ROSA_TOKEN" "OPENID_CLIENT_ID" "OPENID_CLIENT_SECRET" "ISSUER_URL"
 ```
 
 ## License & Authors
