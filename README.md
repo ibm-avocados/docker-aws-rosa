@@ -6,8 +6,9 @@ A simple docker container that has everything required to request a ROSA instanc
 
 **EXAMPLE**:
 ```bash
-docker run quay.io/ibm-avocados/docker-aws-rosa:latest "AWS_CLIENT_KEY" "AWS_SECRET_KEY" "CLUSTER_NAME" "COMPUTE_NODES" "ROSA_TOKEN" "OPENID_CLIENT_ID" "OPENID_CLIENT_SECRET" "ISSUER_URL"
+docker run quay.io/ibm-avocados/docker-aws-rosa:latest "AWS_CLIENT_KEY" "AWS_SECRET_KEY" "CLUSTER_NAME" "COMPUTE_NODES" "ROSA_TOKEN" "OPENID_CLIENT_ID" "OPENID_CLIENT_SECRET" "ISSUER_URL" "OPT:SIZE_OVERRIDE"
 ```
+Look at [here](https://aws.amazon.com/ec2/instance-types/) if you want to do the "OPT:SIZE_OVERRIDE"
 
 ## License & Authors
 
