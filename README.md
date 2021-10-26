@@ -12,7 +12,7 @@ Look at [here](https://aws.amazon.com/ec2/instance-types/) if you want to do the
 
 ## License & Authors
 
-If you would like to see the detailed LICENCE click [here](https://raw.githubusercontent.com/jjasghar/COBOL-on-k8s/master/LICENCE).
+If you would like to see the detailed LICENSE click [here](https://raw.githubusercontent.com/jjasghar/COBOL-on-k8s/master/LICENCE).
 
 - Author: JJ Asghar <awesome@ibm.com>
 - Co-Author: Oliver Rodriguez <odrodrig@us.ibm.com>
